@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{670C47CE-710C-4FA5-A827-BCD0DB9ACCF4}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AECEB909-4023-4618-A487-B34A60D510D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E1AF33E5-A99D-490C-ACE0-AA113B3D37A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InariKun.Runtime", "src\InariKun.Runtime\InariKun.Runtime.csproj", "{C69D5BFD-E376-48A8-A7A8-E683B2059A25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C69D5BFD-E376-48A8-A7A8-E683B2059A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69D5BFD-E376-48A8-A7A8-E683B2059A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69D5BFD-E376-48A8-A7A8-E683B2059A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69D5BFD-E376-48A8-A7A8-E683B2059A25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C69D5BFD-E376-48A8-A7A8-E683B2059A25} = {AECEB909-4023-4618-A487-B34A60D510D4}
+	EndGlobalSection
+EndGlobal

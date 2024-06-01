@@ -1,0 +1,24 @@
+<Project>
+    <PropertyGroup>
+        <LegalAuthor>LuzFaltex Contributors</LegalAuthor>
+        <LegalEmail>support@luzfaltex.com</LegalEmail>
+        <Company>LuzFaltex, LLC.</Company>
+        <LegalCopyrightHolder>LuzFaltex, LLC.</LegalCopyrightHolder>
+        <LegalLicense>ISC</LegalLicense>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <SolutionDir>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)/))</SolutionDir>
+        <ProjectDeprecated>false</ProjectDeprecated>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <RepositoryBranch>main</RepositoryBranch>
+        <RepositoryUrl>https://github.com/Naka-Kon/InariKun</RepositoryUrl>
+
+        <PackageProjectUrl>https://github.com/Naka-Kon/InariKun</PackageProjectUrl>
+        <PackageOutputPath>$(SolutionDir)/nuget</PackageOutputPath>
+        <PackageTags>Naka-Kon;Discord;User Management</PackageTags>
+        <PackageIconPath>$(SolutionDir)/fox_logo.png</PackageIconPath>
+    </PropertyGroup>
+</Project>
